@@ -1,9 +1,10 @@
-import style from '../assets/style/Continets.module.css';
+import Continent from './Continent';
+import style from '../assets/style/Continents.module.css';
 
-const Continents = () => {
-  return (<section className={style.continentContainer}>
-    <h1>I will List all the Continents...!</h1>
-  </section>);
+export default function Continents() {
+  return (
+    <section className={style.continentContainer}>
+      <Continent />
+    </section>
+  );
 }
-
-export default Continents;

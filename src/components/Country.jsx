@@ -1,9 +1,9 @@
 import style from '../assets/style/Country.module.css';
 
-const Country = () => {
-  return (
-    <div className={style.countryContainer}>
+const Country = () => (
+  <div className={style.countryContainer}>
+    <h1>Angola</h1>
+  </div>
+);
 
-    </div>
-  )
-}
+export default Country;
