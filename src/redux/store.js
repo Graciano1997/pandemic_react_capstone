@@ -1,10 +1,10 @@
-import { configureStore } from "@reduxjs/toolkit";
+import { configureStore } from '@reduxjs/toolkit';
 import continentReducer from './continent/continentSlice';
 
 const store = configureStore({
   reducer: {
-    continent: continentReducer
-  }
+    continent: continentReducer,
+  },
 });
 
 export default store;
