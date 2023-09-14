@@ -1,8 +1,6 @@
 .continentContainer {
   display: grid;
   grid-template: repeat(3, auto) / repeat(2, 50fr);
-  /* row-gap: 3px; */
-  /* column-gap: 3px; */
 }
 
 .continentItem {

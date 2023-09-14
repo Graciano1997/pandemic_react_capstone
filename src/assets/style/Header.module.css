@@ -1,6 +1,8 @@
 .headerContainer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding-right: 1%;
 }
 
 .logoContainer {
@@ -17,7 +19,11 @@
 }
 
 .btnBack {
-  font-size: 30px;
+  font-size: 25px;
+}
+
+.toolItems {
+  font-size: 15px;
 }
 
 .btnBackContainer {
@@ -31,5 +37,32 @@
   background: transparent;
   color: #fff;
   border: none;
+  cursor: pointer;
+}
+
+.tools {
+  display: flex;
+  gap: 15px;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 2%;
+  padding-right: 1%;
+}
+
+.searchContainer input {
+  border-radius: 20px;
+  padding: 3px;
+  text-align: center;
+  border: none;
+}
+
+.searchBtn {
+  border: none;
+  margin-left: 4px;
+  border-radius: 8px;
+  padding: 3px;
   cursor: pointer;
 }

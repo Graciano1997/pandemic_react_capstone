@@ -47,7 +47,6 @@ export const continentSlice = createSlice({
             map: mapContinent[index],
           }
         ));
-        console.log(state.continents);
       })
       .addCase(getContinentCases.pending, (state) => {
         state.isLoading = true;

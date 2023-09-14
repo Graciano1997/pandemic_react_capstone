@@ -23,17 +23,30 @@ export const countrySlice = createSlice({
       .addCase(getCountriesCases.fulfilled, (state, action) => {
         state.isLoading = false;
         state.hasError = false;
-        state.countries = action.payload.map((country) => (
-          {
-            country: country.country,
-            flag: country.countryInfo.flag,
-            cases: country.cases,
-            todayCases: country.todayCases,
-            todayRecovered: country.todayRecovered,
-            active: country.active,
-            critical: country.critical,
-          }
-        ));
+        const countriesNew = action.payload;
+        if (countriesNew.length > 1) {
+          state.countries = countriesNew.map((country) => (
+            {
+              country: country.country,
+              flag: country.countryInfo.flag,
+              cases: country.cases,
+              todayCases: country.todayCases,
+              todayRecovered: country.todayRecovered,
+              active: country.active,
+              critical: country.critical,
+            }
+          ));
+        } else {
+          state.countries[0] = {
+            country: countriesNew.country,
+            flag: countriesNew.countryInfo.flag,
+            cases: countriesNew.cases,
+            todayCases: countriesNew.todayCases,
+            todayRecovered: countriesNew.todayRecovered,
+            active: countriesNew.active,
+            critical: countriesNew.critical,
+          };
+        }
       })
       .addCase(getCountriesCases.pending, (state) => {
         state.isLoading = true;
