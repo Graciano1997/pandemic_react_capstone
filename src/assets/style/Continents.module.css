@@ -1,3 +1,45 @@
 .continentContainer {
-  background: rgb(0, 0, 255);
+  display: grid;
+  grid-template: repeat(3, auto) / repeat(2, 50fr);
+  /* row-gap: 3px; */
+  /* column-gap: 3px; */
+}
+
+.continentItem {
+  margin: 0rem;
+  display: flex;
+}
+
+
+.continentImage {
+  width: 100%;
+  height: 100%;
+}
+
+.continentSituation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.continentSituation button {
+  margin-top: 5%;
+  background: none;
+  border: none;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.continentStatus {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  background: rgba(0, 0, 0, 0.034);
+  padding-left: 3%;
+  border-radius: 10px;
+}
+
+.continentButton {
+  font-size: 30px;
 }

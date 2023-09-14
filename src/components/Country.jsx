@@ -1,9 +1,28 @@
+import PropTypes from 'prop-types';
 import style from '../assets/style/Country.module.css';
 
-const Country = () => (
-  <div className={style.countryContainer}>
-    <h1>Angola</h1>
+const Country = ({
+  country, active, todayCases, todayRecovered, flag, styleTheme,
+}) => (
+  <div className={style.countryContainer} style={{ background: styleTheme.background }}>
+    <div className={style.countrySituation}>
+      <img src={flag} alt="Loading..." />
+      <p style={{ justifySelf: 'start' }}>{country}</p>
+      <p>{active}</p>
+      <p>{todayCases}</p>
+      <p>{todayRecovered}</p>
+    </div>
   </div>
 );
+
+Country.propTypes = {
+  country: PropTypes.string.isRequired,
+  flag: PropTypes.string.isRequired,
+  styleTheme: PropTypes.shape({ background: PropTypes.string }).isRequired,
+  todayCases: PropTypes.string.isRequired,
+  todayRecovered: PropTypes.string.isRequired,
+  active: PropTypes.string.isRequired,
+  // critical: PropTypes.string.isRequired,
+};
 
 export default Country;

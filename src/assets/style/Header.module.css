@@ -2,3 +2,34 @@
   display: flex;
   justify-content: space-between;
 }
+
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0.4rem;
+}
+
+.logoContainer img {
+  width: 50%;
+  height: 50%;
+  opacity: 0.8;
+}
+
+.btnBack {
+  font-size: 30px;
+}
+
+.btnBackContainer {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  padding-left: 0px;
+}
+
+.btnBackContainer button {
+  background: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

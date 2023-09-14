@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Continents />} />
-        <Route path="/countries" element={<Countries />} />
+        <Route path="countries" element={<Countries />} />
       </Routes>
     </>
   );

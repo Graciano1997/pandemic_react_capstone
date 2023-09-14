@@ -1,9 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
 import continentReducer from './continent/continentSlice';
+import countriesReducer from './country/countrySlice';
 
 const store = configureStore({
   reducer: {
-    continent: continentReducer,
+    continents: continentReducer,
+    countries: countriesReducer,
   },
 });
 
