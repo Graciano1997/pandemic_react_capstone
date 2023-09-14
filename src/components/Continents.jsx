@@ -25,7 +25,7 @@ export default function Continents() {
     return (
       <div className={styleInfo.hasError}>
         <h2>UPPPS!...</h2>
-        <h4>Network Issues</h4>
+        <h4>Network Issues 🐌..🐌..🐌</h4>
       </div>
     );
   }

@@ -24,6 +24,7 @@
 
 .toolItems {
   font-size: 15px;
+  cursor: pointer;
 }
 
 .btnBackContainer {
@@ -48,21 +49,27 @@
 .searchContainer {
   display: flex;
   justify-content: flex-end;
+  padding-top: 1%;
   padding-bottom: 2%;
-  padding-right: 1%;
+  padding-right: 2%;
+}
+
+.searchContainerItem {
+  display: flex;
+  gap: 2px;
 }
 
 .searchContainer input {
-  border-radius: 20px;
-  padding: 3px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding: 2%;
   text-align: center;
   border: none;
 }
 
 .searchBtn {
   border: none;
-  margin-left: 4px;
-  border-radius: 8px;
-  padding: 3px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 4px;
   cursor: pointer;
 }

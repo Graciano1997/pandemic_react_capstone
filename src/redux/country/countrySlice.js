@@ -16,7 +16,9 @@ export const countrySlice = createSlice({
   initialState,
   name: 'countries',
   reducers: {
-
+    resetCountries: (state) => {
+      state.countries = [];
+    },
   },
   extraReducers: (builder) => {
     builder
@@ -59,5 +61,5 @@ export const countrySlice = createSlice({
 });
 
 export { getCountriesCases };
-export const { listCountries } = countrySlice.actions;
+export const { resetCountries } = countrySlice.actions;
 export default countrySlice.reducer;
