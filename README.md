@@ -62,7 +62,7 @@ Website currently uses:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://space-travelers-hub-sepia.vercel.app/)
+- [Live Demo Link](https://pandemic-app.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +76,7 @@ Website currently uses:
 
 In order to run this project you need:
 - Node.js and git on your local computer.
- 
+
 ### Setup
 
 - Clone this repository to your desired folder:

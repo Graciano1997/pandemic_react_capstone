@@ -12,10 +12,9 @@ function Search() {
   const navegate = useNavigate();
   const handlerClick = () => {
     if (country !== '') {
-      const url = `https:disease.sh/v3/covid-19/countries/${country}`;
       dispatch(resetCountries());
-      dispatch(getCountriesCases(url));
       navegate('/countries');
+      dispatch(getCountriesCases(country));
     }
     document.querySelector('#ctry').value = '';
   };

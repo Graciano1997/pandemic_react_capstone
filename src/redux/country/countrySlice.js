@@ -1,8 +1,9 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const getCountriesCases = createAsyncThunk('countries/getCountriesCases', async (countriesUrl) => {
-  const result = await axios.get(countriesUrl);
+const countryUrl = 'https://disease.sh/v3/covid-19/countries/';
+const getCountriesCases = createAsyncThunk('countries/getCountriesCases', async (country) => {
+  const result = await axios.get(countryUrl + country);
   return result.data;
 });
 
