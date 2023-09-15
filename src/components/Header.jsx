@@ -1,6 +1,5 @@
 import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useState } from 'react';
 import {
   faAngleLeft, faMicrophone, faGear, faVirusCovid,
 } from '@fortawesome/free-solid-svg-icons';
