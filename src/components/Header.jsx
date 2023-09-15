@@ -8,7 +8,6 @@ import style from '../assets/style/Header.module.css';
 
 function Header() {
   const thisYear = new Date();
-  const [headerInfo, setHeaderInfo] = useState('Covid-19 Pandemic Situation');
   const navegate = useNavigate();
   return (
     <header className={style.headerContainer}>
@@ -21,7 +20,7 @@ function Header() {
       <div className={style.logoContainer}>
         <h5>
           <FontAwesomeIcon icon={faVirusCovid} className={style.covid19} />
-          {headerInfo}
+          Covid-19 Pandemic Situation
         </h5>
       </div>
       <div className={style.tools}>
