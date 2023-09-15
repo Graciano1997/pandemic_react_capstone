@@ -1,10 +1,10 @@
 import countriesReducer, { getCountriesCases, initialState, resetCountries } from '../redux/country/countrySlice';
+
 jest.mock('axios', () => ({
   get: jest.fn(),
 }));
 
 describe('Handle the Country Slice', () => {
-
   it('should handle getCountries.Rejected', () => {
     const action = {
       type: getCountriesCases.rejected.type,

@@ -43,9 +43,17 @@ const ContinentItems = () => {
 
 const information = store.getState();
 
-const ContinentItem = () => {
-  <Provider store={store}>
-    <BrowserRouter>
+describe('Testing the Continents Rendering', () => {
+  test('Should render the Africa Continent ', async () => {
+    const element = render(<ContinentItems />);
+    expect(element).toMatchSnapshot();
+  });
+
+  test('Should Contain the Word Africa', async () => {
+    const continent = information.continents[0];
+    render(
+      <Provider store={store}>
+        <BrowserRouter>
           <Continent
             continent={continent.continent}
             population={continent.population}
@@ -58,35 +66,9 @@ const ContinentItem = () => {
             countries={continent.countries}
             theme={standardContinents.includes(continent.continent) ? styleTheme : standard}
           />
-    </BrowserRouter>
-  </Provider>;
-};
-
-
-describe('Testing the Continents Rendering', () => {
-  test('Should render the Africa Continent ', async () => {
-    const element = render(<ContinentItems />);
-    expect(element).toMatchSnapshot();
-  });
-
-  test('Should Contain the Word Africa', async () => {
-    const continent = information.continents[0];
-render(<Provider store={store}>
-  <BrowserRouter>
-          <Continent
-            continent={continent.continent}
-            population={continent.population}
-            cases={continent.cases}
-            active={continent.active}
-            todayCases={continent.todayCases}
-            recovered={continent.recovered}
-            todayRecovered={continent.todayRecovered}
-            map={continent.map}
-            countries={continent.countries}
-            theme={standardContinents.includes(continent.continent) ? styleTheme : standard}
-            />
-            </BrowserRouter>
-    </Provider>);
+        </BrowserRouter>
+      </Provider>,
+    );
     const word = await screen.findByText(/Africa/i);
     expect(word).toBeInTheDocument();
   });

@@ -4,10 +4,9 @@
 }
 
 .continentItem {
-  margin: 0rem;
+  margin: 0;
   display: flex;
 }
-
 
 .continentImage {
   width: 100%;

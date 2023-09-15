@@ -15,8 +15,8 @@ const initialState = {
     flag: 'flag',
     active: 35,
     todayCases: 0,
-    todayRecovered: 0
-  }
+    todayRecovered: 0,
+  },
   ],
   isLoading: false,
   hasError: false,
@@ -71,20 +71,20 @@ describe('Testing the Countries Rendering', () => {
 
   test('Should Match the Country SnapShot ', async () => {
     const information = store.getState();
-    const countryInfo = information.countries[0]
-    render(<Provider store={store}>
-      <Country
-            country={countryInfo.country}
-            flag={countryInfo.flag}
-            active={countryInfo.active}
-            todayCases={countryInfo.todayCases}
-            todayRecovered={countryInfo.todayRecovered}
-            styleTheme={styleTheme}
-          />
-    </Provider>);
+    const countryInfo = information.countries[0];
+    render(
+      <Provider store={store}>
+        <Country
+          country={countryInfo.country}
+          flag={countryInfo.flag}
+          active={countryInfo.active}
+          todayCases={countryInfo.todayCases}
+          todayRecovered={countryInfo.todayRecovered}
+          styleTheme={styleTheme}
+        />
+      </Provider>,
+    );
     const word = await screen.findByText(/Angola/i);
     expect(word).toBeInTheDocument();
   });
-
-
 });
