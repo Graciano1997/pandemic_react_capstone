@@ -1,0 +1,40 @@
+.countryContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: small;
+}
+
+.countrySituation,
+.countrySituationHeader {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: flex-start;
+  align-items: center;
+  column-gap: 8px;
+  padding-left: 2%;
+}
+
+.countrySituationHeader div h4 {
+  font-weight: bold;
+}
+
+.countrySituation p {
+  justify-self: center;
+}
+
+.countrySituationHeader {
+  background: #367aca;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  justify-items: center;
+}
+
+.countrySituation img {
+  width: 50%;
+  height: 50%;
+}
+
+.info {
+  padding-right: 3px;
+}

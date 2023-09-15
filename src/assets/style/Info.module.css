@@ -1,0 +1,13 @@
+.isLoading,
+.hasError,
+.errorContainer,
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoDetails {
+  text-align: start;
+}
