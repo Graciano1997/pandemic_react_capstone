@@ -160,7 +160,7 @@ If you like this project kindly give it a star⭐️.
 
 I would like to thank [Microverse](https://github.com/microverseinc) for the immense support.
 
-I would like to thank [Microverse](https://github.com/microverseinc) for the provided design project.
+I would like to thank [ Nelson Sakwa on Behance.](https://www.behance.net/sakwadesignstudio) for the provided design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->
