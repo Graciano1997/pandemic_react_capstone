@@ -62,7 +62,7 @@ Website currently uses:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://pandemic-app.onrender.com/)
+- [Live Demo Link](https://todays-pandemic-status-app.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -13,8 +13,7 @@ function Continent({
   const navegate = useNavigate();
   const handlerClick = async () => {
     const countriesList = countries.toString();
-    const url = `https://disease.sh/v3/covid-19/countries/${countriesList}`;
-    await dispatch(getCountriesCases(url));
+    await dispatch(getCountriesCases(countriesList));
     navegate('/countries');
   };
 
