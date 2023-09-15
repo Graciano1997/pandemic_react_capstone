@@ -1,4 +1,6 @@
 import { useSelector } from 'react-redux';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleInfo } from '@fortawesome/free-solid-svg-icons';
 import style from '../assets/style/Country.module.css';
 import styleInfo from '../assets/style/Info.module.css';
 import Country from './Country';
@@ -18,8 +20,9 @@ const Countries = () => {
   if (hasError) {
     return (
       <div className={styleInfo.hasError}>
-        <h2>UPPPS!...</h2>
-        <h4>Network Issues 🐌..🐌..🐌</h4>
+        <h4>UPSS! Country Not Found 😫😭</h4>
+        <p>Please Ensure to write a correct country&apos;s name</p>
+        <p>Or Check your Connection🐌..🐌..🐌</p>
       </div>
     );
   }
@@ -51,9 +54,18 @@ const Countries = () => {
     );
   }
   return (
-    <div className={styleInfo.errorContainer}>
-      <h4>UPSS! Country Not Found 😫😭</h4>
-      <p>Please Ensure to write a correct country&apos;s name</p>
+    <div className={styleInfo.info}>
+      <div className={styleInfo.infoDetails}>
+        <h3>See a Country Today Situation</h3>
+        <p>Enter a valid country name in the text field.</p>
+        <p>Eg: Japan</p>
+        <p>Eg: japan,Angola,India,Canada,...</p>
+        <p>
+          <FontAwesomeIcon icon={faCircleInfo} className={style.info} />
+          It is not Case Sensitive.
+        </p>
+      </div>
+
     </div>
   );
 };

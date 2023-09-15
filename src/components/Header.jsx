@@ -1,6 +1,8 @@
 import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleLeft, faMicrophone, faGear } from '@fortawesome/free-solid-svg-icons';
+import {
+  faAngleLeft, faMicrophone, faGear, faVirusCovid,
+} from '@fortawesome/free-solid-svg-icons';
 import style from '../assets/style/Header.module.css';
 
 function Header() {
@@ -16,6 +18,9 @@ function Header() {
       </div>
       <div className={style.logoContainer}>
         <h5>Covid-19 Pandemic Situation</h5>
+        <h3>
+          <FontAwesomeIcon icon={faVirusCovid} className={style.covid19} />
+        </h3>
       </div>
       <div className={style.tools}>
         <FontAwesomeIcon icon={faMicrophone} className={style.toolItems} />

@@ -19,10 +19,9 @@ Country.propTypes = {
   country: PropTypes.string.isRequired,
   flag: PropTypes.string.isRequired,
   styleTheme: PropTypes.shape({ background: PropTypes.string }).isRequired,
-  todayCases: PropTypes.string.isRequired,
-  todayRecovered: PropTypes.string.isRequired,
-  active: PropTypes.string.isRequired,
-  // critical: PropTypes.string.isRequired,
+  todayCases: PropTypes.number.isRequired,
+  todayRecovered: PropTypes.number.isRequired,
+  active: PropTypes.number.isRequired,
 };
 
 export default Country;

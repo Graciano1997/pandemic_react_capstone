@@ -26,8 +26,6 @@ export const continentSlice = createSlice({
   initialState,
   name: 'continents',
   reducers: {
-    listCountries: () => {
-    },
   },
   extraReducers: (builder) => {
     builder
@@ -59,5 +57,6 @@ export const continentSlice = createSlice({
 });
 
 export { getContinentCases };
+export { initialState };
 export const { listCountries } = continentSlice.actions;
 export default continentSlice.reducer;

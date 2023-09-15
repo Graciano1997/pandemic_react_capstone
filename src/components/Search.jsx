@@ -23,7 +23,7 @@ function Search() {
       <div className={style.item}>
         <form action="">
           <div className={style.searchContainerItem}>
-            <input type="text" name="country" placeholder="Enter country's name" onKeyUp={(e) => setCountry(e.target.value)} />
+            <input type="text" name="country" placeholder="Type a country name" onKeyUp={(e) => setCountry(e.target.value)} />
             <button type="button" onClick={handlerClick} className={style.searchBtn}>
               <FontAwesomeIcon icon={faMagnifyingGlass} />
             </button>

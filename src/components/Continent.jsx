@@ -28,9 +28,9 @@ function Continent({
           <FontAwesomeIcon icon={faCircleArrowRight} className={style.continentButton} />
         </button>
         <div className={style.continentStatus}>
-          <h3>
+          <h2>
             {continent}
-          </h3>
+          </h2>
           <h3>
             {`active: ${active}`}
           </h3>
@@ -49,10 +49,10 @@ function Continent({
 Continent.propTypes = {
   continent: PropTypes.string.isRequired,
   map: PropTypes.string.isRequired,
-  active: PropTypes.string.isRequired,
+  active: PropTypes.number.isRequired,
   theme: PropTypes.string.isRequired,
-  todayCases: PropTypes.string.isRequired,
-  todayRecovered: PropTypes.string.isRequired,
+  todayCases: PropTypes.number.isRequired,
+  todayRecovered: PropTypes.number.isRequired,
   countries: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 

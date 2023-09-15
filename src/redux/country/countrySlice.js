@@ -6,7 +6,7 @@ const getCountriesCases = createAsyncThunk('countries/getCountriesCases', async 
   return result.data;
 });
 
-const initialState = {
+export const initialState = {
   countries: [],
   isLoading: false,
   hasError: false,

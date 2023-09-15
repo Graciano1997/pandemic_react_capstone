@@ -25,12 +25,16 @@
 
 .countrySituationHeader {
   background: #367aca;
-  padding-top: 2.7%;
-  padding-bottom: 2.7%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
   justify-items: center;
 }
 
 .countrySituation img {
   width: 50%;
   height: 50%;
+}
+
+.info {
+  padding-right: 3px;
 }
