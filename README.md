@@ -28,7 +28,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 🦠 Covid-19 Pandemic Situation Today <a name="about-project"></a>
+# 🦠 Covid-19 Pandemic Situation Today <a name="#about-project"></a>
 
 <p>This is a React Web App that report the 24H coronavirus new cases, recovered and active cases by each Country in All over the world!
 <b>Everything in Real time </b> Fetching the data from a provided API.
@@ -39,14 +39,14 @@
 - Redux
 - Redux Toolkit
 
-### Tech Stack <a name="tech-stack"></a>
+### Tech Stack <a name="#tech-stack"></a>
 Website currently uses:
 - Node.js
 - React library
 - Redux Toolkit
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+### Key Features <a name="#key-features"></a>
 - Fetching All the Countries Pandemic Situation from each Continent
 - Searching a whatever country pandemic situation.
 
@@ -54,13 +54,13 @@ Website currently uses:
 
 <!-- LIVE DEMO -->
 
-## 🎥 Project Presentation <a name="presentation"></a>
+## 🎥 Project Presentation <a name="#presentation"></a>
 
 - [Presentation Link](https://www.loom.com/share/5abde049333f40f8aa9f2137fc73cc3e)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="#live-demo"></a>
 
 - [Live Demo Link](https://todays-pandemic-status-app.onrender.com/)
 
@@ -68,7 +68,7 @@ Website currently uses:
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
+## 💻 Getting Started <a name="#getting-started"></a>
 
 - To get a local copy up and running, follow these steps.
 
@@ -122,14 +122,14 @@ npx eslint "**/*.{js,jsx}"
 
   <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Author <a name="#authors"></a>
 
 👤 **Graciano Henrique**
 - Github: [@fGraciano Henrique](https://github.com/Graciano1997/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a name="#future-features"></a>
 
 Allow users to be able to:
 - Build a new Desktop appearance
@@ -138,7 +138,7 @@ Allow users to be able to:
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributing <a name="#contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
@@ -148,7 +148,7 @@ Feel free to check the [Isues Pages](https://github.com/Graciano1997/pandemic_re
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+## ⭐️ Show your support <a name="#support"></a>
 
 If you like this project kindly give it a star⭐️.
 
@@ -156,7 +156,7 @@ If you like this project kindly give it a star⭐️.
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a name="#acknowledgements"></a>
 
 I would like to thank [Microverse](https://github.com/microverseinc) for the immense support.
 
@@ -165,7 +165,7 @@ I would like to thank [ Nelson Sakwa on Behance.](https://www.behance.net/sakwad
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
+## 📝 License <a name="#license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
