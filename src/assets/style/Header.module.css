@@ -74,5 +74,6 @@
 }
 
 .covid19 {
+  padding-right: 2px;
   transform: scale(1.5);
 }

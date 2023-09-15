@@ -17,10 +17,10 @@ function Header() {
         <h3>{thisYear.getFullYear()}</h3>
       </div>
       <div className={style.logoContainer}>
-        <h5>Covid-19 Pandemic Situation</h5>
-        <h3>
+        <h5>
           <FontAwesomeIcon icon={faVirusCovid} className={style.covid19} />
-        </h3>
+          Covid-19 Pandemic Situation
+        </h5>
       </div>
       <div className={style.tools}>
         <FontAwesomeIcon icon={faMicrophone} className={style.toolItems} />
