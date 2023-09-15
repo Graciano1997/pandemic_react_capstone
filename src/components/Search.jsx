@@ -17,13 +17,14 @@ function Search() {
       dispatch(getCountriesCases(url));
       navegate('/countries');
     }
+    document.querySelector('#ctry').value = '';
   };
   return (
     <section className={style.searchContainer}>
       <div className={style.item}>
         <form action="">
           <div className={style.searchContainerItem}>
-            <input type="text" name="country" placeholder="Type a country name" onKeyUp={(e) => setCountry(e.target.value)} />
+            <input type="text" name="country" placeholder="Type a country name" id="ctry" onKeyUp={(e) => setCountry(e.target.value)} />
             <button type="button" onClick={handlerClick} className={style.searchBtn}>
               <FontAwesomeIcon icon={faMagnifyingGlass} />
             </button>
