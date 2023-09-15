@@ -35,7 +35,7 @@ const Countries = () => {
           <div>{' '}</div>
           <div><h4>Active</h4></div>
           <div><h4>Today</h4></div>
-          <div><h4>Today Recoverd</h4></div>
+          <div><h4>Today Recovered</h4></div>
         </div>
         {
           countries.map((country, index) => (

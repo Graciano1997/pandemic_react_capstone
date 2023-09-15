@@ -56,7 +56,7 @@ Website currently uses:
 
 ## 🎥 Project Presentation <a name="presentation"></a>
 
-- [Presentation Link](https://space-travelers-hub-sepia.vercel.app/)
+- [Presentation Link](https://www.loom.com/share/5abde049333f40f8aa9f2137fc73cc3e)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
