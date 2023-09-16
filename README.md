@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h1><b>Covid-19 Pandemic Situation Today</b></h1>
+  <h1><b>Today Covid-19 Pandemic Situation</b></h1>
 </div>
 
 # 📗 Table of Contents
