@@ -54,21 +54,21 @@ Website currently uses:
 
 <!-- LIVE DEMO -->
 
-## 🎥 Project Presentation <a name="#presentation"></a>
+## 🎥 Project Presentation <a name="presentation"></a>
 
 - [Presentation Link](https://www.loom.com/share/5abde049333f40f8aa9f2137fc73cc3e)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="#live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://todays-pandemic-status-app.onrender.com/)
+- [Live Demo Link](https://pandemic-react-capstone.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="#getting-started"></a>
+## 💻 Getting Started <a name="getting-started"></a>
 
 - To get a local copy up and running, follow these steps.
 
