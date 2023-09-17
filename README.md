@@ -39,14 +39,14 @@
 - Redux
 - Redux Toolkit
 
-### Tech Stack <a name="#tech-stack"></a>
+### Tech Stack <a name="tech-stack"></a>
 Website currently uses:
 - Node.js
 - React library
 - Redux Toolkit
 <!-- Features -->
 
-### Key Features <a name="#key-features"></a>
+### Key Features <a name="key-features"></a>
 - Fetching All the Countries Pandemic Situation from each Continent
 - Searching a whatever country pandemic situation.
 
@@ -122,7 +122,7 @@ npx eslint "**/*.{js,jsx}"
 
   <!-- AUTHORS -->
 
-## 👥 Author <a name="#authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Graciano Henrique**
 - Github: [@fGraciano Henrique](https://github.com/Graciano1997/)
@@ -138,7 +138,7 @@ Allow users to be able to:
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="#contributing"></a>
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
@@ -148,7 +148,7 @@ Feel free to check the [Isues Pages](https://github.com/Graciano1997/pandemic_re
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="#support"></a>
+## ⭐️ Show your support <a name="support"></a>
 
 If you like this project kindly give it a star⭐️.
 
@@ -156,7 +156,7 @@ If you like this project kindly give it a star⭐️.
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="#acknowledgements"></a>
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank [Microverse](https://github.com/microverseinc) for the immense support.
 
@@ -165,7 +165,7 @@ I would like to thank [ Nelson Sakwa on Behance.](https://www.behance.net/sakwad
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->
 
-## 📝 License <a name="#license"></a>
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
